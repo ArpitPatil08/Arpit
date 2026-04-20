@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =============================================
+       index.html — HOME PAGE
+       This is the first page visitors see.
+       ============================================= -->
+
+  <meta charset="UTF-8" />
+  <!-- Makes the site look good on mobile phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ★ Change this to your name -->
+  <title>Your Name | Portfolio</title>
+
+  <!-- Link to the shared CSS file that styles all pages -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       NAVIGATION BAR
+       Copy this <nav> block to every HTML file.
+       Change class="active" to match the current page.
+       ============================================= -->
+  <nav>
+    <!-- ★ Change "YourName" to your actual name or initials -->
+    <a href="index.html" class="logo">Arpit Patil</a>
+
+    <ul>
+      <!-- class="active" highlights the current page link -->
+      <li><a href="index.html" class="active">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="qualifications.html">QUALIFICATIONS</a></li>
+      <li><a href="interests.html">INTERESTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  <!-- End Navigation -->
+
+
+  <!-- =============================================
+       MAIN CONTENT
+       Everything visible on the page goes here.
+       ============================================= -->
+  <main class="container">
+
+    <!-- ---- HERO SECTION (Name + Photo + Intro) ---- -->
+    <section class="hero">
+
+      <!-- Your Photo (right side on desktop, top on mobile) -->
+      <div class="hero-photo">
+
+        <!--
+          HOW TO ADD YOUR PHOTO:
+          1. Save your photo in the same folder as index.html
+          2. Name it something simple like "photo.jpg"
+          3. Replace src="photo.jpg" with your filename
+          4. Delete the <div class="photo-placeholder"> block below
+        -->
+
+        
+        <img src="photo.jpeg" alt="Your Name" />
+        
+
+        <!-- This placeholder shows when no photo is added yet -->
+        
+
+      </div>
+      <!-- End Photo -->
+
+      <!-- Your Name and Introduction (left side) -->
+      <div class="hero-text">
+
+        <!-- Small text above your name -->
+        <p class="greeting">HELLO, WORLD. I AM</p>
+
+        <!-- ★ Replace with your full name -->
+        <h1>Arpit Patil</h1>
+
+        <!-- ★ Replace with your role / title -->
+        <p class="tagline">Student &amp; Developer</p>
+
+        <!-- ★ Write a short 2-3 sentence introduction about yourself -->
+        <p class="intro">
+         Welcome to my portfolio. I am a first-year engineering student who is passionate 
+         about technology and development. I enjoy learning new skills and building simple 
+         projects that help me grow step by step.
+        </p>
+
+        <p class="intro">
+        My goal is to become a skilled developer by continuously learning and improving 
+        through practice and real-world projects.
+        </p>
+
+      </div>
+      <!-- End Hero Text -->
+
+    </section>
+    <!-- End Hero Section -->
+
+
+    <!-- ---- QUICK HIGHLIGHTS (optional cards below hero) ---- -->
+    <div class="card">
+      <!-- ★ Change this heading -->
+      <h2>CURRENT STATUS</h2>
+      <!-- ★ Write what you are currently doing -->
+      <p>
+        Currently pursuing B.Tech in Computer Engineering. I am learning web development 
+        and building small projects to improve my skills step by step.
+      </p>
+
+      <p>
+        Right now, I am focusing on understanding HTML, CSS, and Python fundamentals 
+        while exploring how real-world applications are built.
+      </p>
+    </div>
+
+    <div class="card">
+      <!-- ★ Change this heading -->
+      <h2>WHAT I DO</h2>
+      <!-- ★ List your main skills or activities -->
+      <p>
+        I work on front-end development using HTML and CSS and enjoy creating simple 
+        and clean websites. I also practice Python programming to improve my logic 
+        and problem-solving skills.
+      </p>
+
+      <p>
+        Apart from coding, I explore new technologies, watch tutorials, and try to 
+        apply what I learn by building small projects.
+      </p>
+    </div>
+
+
+    <!-- ---- PHOTO GALLERY (optional, remove if not needed) ---- -->
+    <p class="gallery-title">Games I Like</p>
+
+    <!--
+      HOW TO ADD IMAGES TO THE GALLERY:
+      1. Save images in an "images" folder inside the portfolio folder.
+      2. Copy one <div class="gallery-item"> block for each image.
+      3. Replace "images/your-image.jpg" with your actual file path.
+      4. Update the alt="..." text to describe the image.
+      5. Delete the <div class="img-placeholder"> block for that item.
+    -->
+    <div class="gallery">
+
+      <!-- Gallery Image 1 -->
+      <div class="gallery-item">
+        <h2>Valorant</h2>
+        <img src="Valorant.jpg" alt="Valorant" />
+        
+      </div>
+
+      <!-- Gallery Image 2 -->
+      <div class="gallery-item">
+        <h2>Gta V</h2>
+        <img src="Gtav.jpg" alt="GtaV" />
+        
+      </div>
+
+      <!-- Gallery Image 3 -->
+      <div class="gallery-item">
+        <h2>Minecraft</h2>
+        <img src="Minecraft.jpg" alt="Minecraft" />
+      </div>
+
+      <!-- ★ Copy a block above to add more images -->
+
+    </div>
+    <!-- End Gallery -->
+
+  </main>
+  <!-- End Main Content -->
+
+
+  <!-- =============================================
+       FOOTER
+       Appears at the bottom of every page.
+       ============================================= -->
+  <footer>
+    <!-- ★ Replace with your name and year -->
+    &copy; 2025 Your Name &nbsp;|&nbsp; Built with HTML &amp; CSS
+  </footer>
+
+</body>
+</html>
